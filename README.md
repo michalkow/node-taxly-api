@@ -7,7 +7,7 @@ A Node.js wrapper for the Taxly REST API
 
 ## Usage
 
-```
+```javascript
 import TaxlyApi from 'taxly-api';
 
 const taxly = new TaxlyApi({ key: 'YOUR-API-KEY', token: 'YOUR-API-TOKEN'});
