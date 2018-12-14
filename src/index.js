@@ -1,4 +1,3 @@
-import "babel-polyfill";
 import request from 'request';
 import API from './api.js';
 

@@ -1,9 +1,10 @@
 {
   "name": "taxly-api",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Node.js wrapper for the Taxly REST API",
   "main": "build/index.js",
   "scripts": {
+    "start": "babel-node tests/index.test.js",
     "build": "babel src -d build",
     "prepublish": "babel src -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,12 +12,11 @@
   "author": "Michal Kowalkowski",
   "license": "MIT",
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
     "request": "^2.87.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0"
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
   }
 }
